@@ -4,4 +4,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def confirmacion():
-    return "<p>Conexion OK</p>"
+    return "Mensaje recibido con exito :D"
+
+@app.route("/mensajito")
+def mensajito():
+    return "mensajeeeee"
