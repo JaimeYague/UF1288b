@@ -6,6 +6,10 @@ app = Flask(__name__)
 def confirmacion():
     return "Mensaje recibido con exito :D"
 
-@app.route("/mensajito")
-def mensajito():
-    return "mensajeeeee"
+@app.route("/clientone")
+def clientone():
+    return "mensaje de cliente uno"
+
+@app.route("/clientwo")
+def clienttwo():
+    return "mensaje de cliente dos"
